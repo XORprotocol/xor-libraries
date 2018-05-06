@@ -9,7 +9,8 @@
   "scripts": {
     "compile": "truffle compile",
     "test": "truffle test",
-    "deploy": "truffle deploy"
+    "deploy": "truffle deploy",
+    "migrate": "truffle migrate"
   },
   "repository": {
     "type": "git",
@@ -27,9 +28,9 @@
     "url": "https://github.com/XORprotocol/xor-libraries/issues"
   },
   "dependencies": {
-    "truffle": "4.0.1",
-    "truffle-hdwallet-provider": "0.0.3",
-    "zeppelin-solidity": "^1.8.0"
+    "openzeppelin-solidity": "1.9.0",
+    "truffle": "4.1.4",
+    "truffle-hdwallet-provider": "0.0.3"
   },
   "devDependencies": {
     "eslint-plugin-import": "2.7.0",
